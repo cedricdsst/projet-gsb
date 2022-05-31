@@ -1,0 +1,75 @@
+body {
+
+margin-top:2em;
+color:rgb(61, 148, 230);
+
+
+}
+
+.alert_ban{
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  height: 100px;
+  width: 300px;
+  background-color: red;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+}
+
+
+form {
+    
+    margin: 0 auto;
+    width: 400px;
+    height:400px;
+    padding-right: 1em;
+    padding-left:1em;
+    padding-bottom:1em;
+    padding-top:2em;
+
+    border: 3px solid rgb(155, 195, 228);
+    border-radius: 3em;
+  }
+
+  .alert{
+    font-weight: bolder;
+    background: red;
+    width: 100px;
+    height: 35px;
+    position: absolute;
+    transform: translateX(-50%);
+    top: 0%;
+    left: 50%;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 5px;
+    margin-top:10px;
+
+}
+
+.identifiants {
+
+    width:220px;
+    height:40px;
+    border-radius:3em;
+    border: 2px solid rgb(155, 195, 228);
+    text-align:center;
+    background-color:rgb(219, 214, 245);
+
+  }
+
+.submit {
+
+    width:120px;
+    height:40px;
+    border-radius:3em;
+    font-size:25px;
+    color: rgb(61, 148, 230);
+    border: 3px solid rgb(155, 195, 228);
+    text-align:center;
+    background-color:rgb(219, 214, 245);
+
+}
